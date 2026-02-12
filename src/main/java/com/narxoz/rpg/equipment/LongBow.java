@@ -1,18 +1,18 @@
 package com.narxoz.rpg.equipment;
 
-public class IronSword implements Weapon {
+public class LongBow implements Weapon {
 
     private int damage;
     private String name;
 
-    public IronSword() {
-        this.name = "Iron Sword";
-        this.damage = 25;
+    public LongBow() {
+        this.name = "Elven Longbow";
+        this.damage = 30;
     }
 
     @Override
     public void attack() {
-        System.out.println("Swings the " + name + " dealing " + damage + " physical damage!");
+        System.out.println("Shoots a precise arrow from " + name + " dealing " + damage + " damage!");
     }
 
     @Override

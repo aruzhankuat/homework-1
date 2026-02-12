@@ -1,18 +1,18 @@
 package com.narxoz.rpg.equipment;
 
-public class IronSword implements Weapon {
+public class WizardStaff implements Weapon {
 
     private int damage;
     private String name;
 
-    public IronSword() {
-        this.name = "Iron Sword";
-        this.damage = 25;
+    public WizardStaff() {
+        this.name = "Elder Wizard Staff";
+        this.damage = 40;
     }
 
     @Override
     public void attack() {
-        System.out.println("Swings the " + name + " dealing " + damage + " physical damage!");
+        System.out.println("Casts a fireball from " + name + " dealing " + damage + " magic damage!");
     }
 
     @Override
