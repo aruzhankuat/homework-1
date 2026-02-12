@@ -8,11 +8,11 @@ import com.narxoz.rpg.equipment.IronSword;
 public class MedievalFactory implements EquipmentFactory {
     @Override
     public Weapon createWeapon() {
-        return new IronSword(); // Medieval қаруын береді
+        return new IronSword();
     }
 
     @Override
     public Armor createArmor() {
-        return new PlateArmor(); // Medieval сауытын береді
+        return new PlateArmor();
     }
 }
